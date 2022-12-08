@@ -1239,3 +1239,17 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+
+/* validation */
+
+.error-alert /* .form-group */{
+  
+  bottom: 12px;
+  right: 17px;
+  font-size:14px;
+  color:red;
+}
+
+.error-alert i{
+  color:seagreen;
+}
