@@ -10,7 +10,7 @@ function validateName() {
         nameError.innerHTML = 'Name is required';
         return false;
     }
-    if (!name.match(/^[A-Za-z]*\s{1}[A-Za-z]*$/)) {
+    if (!name.match(/^[A-Za-z]+\s{1}[A-Za-z]+$/)) {
         nameError.innerHTML = 'Write full name';
         return false;
     }
@@ -25,7 +25,7 @@ function validateEmail() {
         emailError.innerHTML = 'Email is required';
         return false;
     }
-    if (!email.match(/^[A-Za-z\._\-[0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)) {
+    if (!email.match(/^[A-Za-z\._\-[0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)) { 
         emailError.innerHTML = 'Email Invalid';
         return false;
     }
